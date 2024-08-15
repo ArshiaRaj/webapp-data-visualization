@@ -14,19 +14,3 @@ Building the Web App:
 CSV File Handling: The app allows users to upload a CSV file in a predefined format. This file is then read and converted into a Pandas DataFrame for easy manipulation and analysis.
 Data Display: The raw data is rendered in a tabular format on an HTML page using Django templates.
 Data Analysis & Visualization: The data is analyzed using Pandas, and the results are visualized using ChartJS. The visualizations are then displayed on the web page, providing the user with insights derived from the data.
-
-Project Structure:
-data-analysis-visualization-app/
-│
-├── app/
-│   ├── templates/
-│   ├── static/
-│   ├── views.py
-│   ├── models.py
-│   ├── urls.py
-│   └── ...
-├── data/
-│   └── sample_data.csv
-├── requirements.txt
-├── manage.py
-└── README.md
